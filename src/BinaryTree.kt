@@ -32,7 +32,7 @@ fun main() {
 
 private class Node(var data:Int = 0,
                    var left:Node? = null,
-                   var right:Node? = null,)
+                   var right:Node? = null)
 
 private class Tree {
     var root:Node? = null
